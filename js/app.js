@@ -8,8 +8,6 @@ const btncopiar = document.getElementById("btncopiar");
     }
 
     iniciar();
-
-
     function prohibir(){  //prohibimos tildes y acentos
         textarea1.addEventListener("keypress", function(event) {
             const caracter = String.fromCharCode(event.which);
