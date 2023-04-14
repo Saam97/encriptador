@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+
+    <header>
+        <img src="https://challenge-oracle-one-theta.vercel.app/assets/logo.png" alt="logo">
+        <h1>Encriptador</h1>
+    </header>
+
+    <div class="contenedor">
+
+        <div class="area1">
+
+                <textarea id="texarea1" placeholder="Escribe Algo Aquí"></textarea>
+
+                <div class="btones">
+
+                    <button id="btnEncriptar" class="boton encriptar">Encriptar</button>
+                    <button id="btnDesencriptar" class="boton desencriptar">Desencriptar</button>
+                </div>
+
+        </div>
+
+        <div class="area2">
+
+            <div class="contenedorIMG" type>
+                <img class="imagen1" src="https://challenge-oracle-one-theta.vercel.app/assets/Mu%C3%B1eco.png" alt="imagen">
+                <img class="imagen2" src="https://challenge-oracle-one-theta.vercel.app/assets/Frame5.png" alt="imagen">
+            </div>
+            <textarea id="texarea2" class="textarea2" readonly></textarea>
+
+            <input id="btncopiar" type="submit" class="boton btncopiar ocultar" value="Copiar">
+        </div>
+
+
+    </div>
+
+    <footer>
+       <h4>Sergio Agudelo</h4>
+    </footer>
+
+</body>
+</html>
+
+<script src="js/app.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
